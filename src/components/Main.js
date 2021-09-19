@@ -35,6 +35,7 @@ const Main = () => {
   };
 
   useEffect(() => {
+    handleclick()
     if (climate.weathermood) {
       switch (climate.weathermood) {
         case "Clear":
